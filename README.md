@@ -1,4 +1,5 @@
 2022 novemberi megoldás, a Szerveroldali webprogramozás kurzus beadandója.
+Használt technológiák: Laravel, Tailwind CSS
 
 ## Oldal leírása
 Egy múzeum oldala, ahol a kiállított tárgyakat lehet megtekinteni, hozzászólást írni.
@@ -8,6 +9,8 @@ Többi felhasználó megtekintheti, illetve megjegyzéseket fűzhet a kiállíto
 ## Futtatás
 
 ```init.bat``` vagy ```init.sh``` futtatása beállítja, majd elindíja a szervert.
+
+_Sok címke generálása miatt megeshet hogy azonos nevűek kerülnének az adatbázisba, ekkor hibát dob. Adatok újragenerálása: ```php artisan migrate:fresh --seed```_
 
 ## Képek az oldalról
 Kezdőlap

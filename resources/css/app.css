@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.commentcard .author::after {
+  content: ":";
+}
+
+.commentDate {
+  border-left: 5px solid #828282;
+  padding-left: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

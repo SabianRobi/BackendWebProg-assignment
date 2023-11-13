@@ -1,0 +1,53 @@
+# Misc
+[X] Laravel 9, SQLite
+[X] Crate initialization scripts
+[X] Good looking and usable frontend
+[X] Set the timezone to Europe/Budapest
+[X] Validate forms on server side (login, register done)
+
+# Before submit
+[ ] Delete vendor and node_modules folders
+
+# Main tasks
+[X] Create models (Item, Comment, Label, User)
+[X] Create relations
+[X] Create seeders (for every model and with relations)
+[X] Welcome page
+	[X] Display every item (image, name, short descroption, go to detailed page)
+	[X] Everybody can see
+	[X] Order the items descending by obtained
+	[X] Pagination (12 items per page)
+[X] Details page
+	[X] Display the item (image, name, the whole description, labels (only with display on))
+	[X] Display comments ordered by date (or "no comments")
+	[X] On invalid item display Error 404
+[X] New label (name, display, color)
+	[X] Only admin
+[X] Edit label
+	[X] Only admin
+[X] List items with specific label
+	[X] Every label clickable
+	[X] On invalid label display Error 404
+[X] New item (required fields | image, labels)
+	[X] Only admin
+[ ] Edit item
+	[ ] Only admin
+	[ ] Avilable from the details page
+[X] Delete label/item
+	[X] Only admin
+	[X] Don't leave any references behind
+[X] Manage comments
+	[X] Logged in users can write comments
+	[X]	Everyone can delete their own comments
+	[X] Only admin can delete everyone's comments
+	[X] Everyone can modify their own comments
+	[X] Only admin can modify everyone's comments
+	[ ] There is no feedback when trying to edit to empty
+[ ] Defend the assignment
+
+# QoL things
+[X] Correct dark/light theme font color
+[X] Smooth scroll
+[ ] Hide navbar on scrolling down
+[ ] Make header smaller
+[ ] Make a popup for flashes, which hides after some time

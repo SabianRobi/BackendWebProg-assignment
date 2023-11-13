@@ -28,7 +28,7 @@ class DatabaseSeeder extends Seeder
         //Users
         User::factory()->create([
             'name' => 'admin',
-            'email' => 'admin@szerveroldali.hu',
+            'email' => 'admin@pcmuseum.hu',
             'password' => Hash::make('admin'),
             'is_admin' => true,
         ]);
@@ -36,7 +36,7 @@ class DatabaseSeeder extends Seeder
             User::factory()->create([
                 'name' => 'user'. $i,
                 //'name' => fake()->name(),
-                'email' => 'user' . $i . '@szerveroldali.hu',
+                'email' => 'user' . $i . '@pcmuseum.hu',
                 'password' => Hash::make('password')
             ]);
         }
